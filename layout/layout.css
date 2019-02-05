@@ -1,0 +1,101 @@
+@font-face {
+    font-family:'Avenir Book';
+    src: url('fonts/Avenir Book.eot');
+	src: url('fonts/Avenir Book.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir Book.woff2') format('woff2'),
+		url('fonts/Avenir Book.woff') format('woff'),
+		url('fonts/Avenir Book.svg#Avenir Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+@font-face {
+    font-family:'Avenir Black';
+    src: url('fonts/Avenir Black.eot');
+	src: url('fonts/Avenir Black.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir Black.woff2') format('woff2'),
+		url('fonts/Avenir Black.woff') format('woff'),
+		url('fonts/Avenir Black.svg#Avenir Black') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-E308;
+}
+* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{font-family: "Avenir Book", sans-serif; font-size: 14px; margin: 0px; padding: 0px; background-color: #efefef; max-width: 1336px}
+p{margin: 0px;}
+
+.fleft{float: right;}
+.fright{float: right;}
+.clear{clear: both;}
+.main{margin-left: 100px;}
+
+nav{height: 100%; width: 100px; background: #e5e5e5; position: fixed; }
+.sbclogo{height: 70px; padding:  10px 0px 0 20px;}
+.topmenu{padding-top: 50px; margin-left: auto; margin-right: auto; text-align: center; background-image: url(img/background.png);  background-size: cover; background-repeat: no-repeat;}
+.item-buttons{margin-left: 22%;}
+
+.fleft{float: left;}
+.fright{float: right;}
+.clear{clear: both;}
+
+.inbold{font-family: "Avenir Black", sans-serif;}
+.contestnav{margin-top: 30px;}
+.center{text-align: center;}
+.button{height: 75px; width: 200px; background: #820433; padding-top: 10px; display: block; color: #ffffff; text-decoration: none; font-size: 20px; border-radius: 10px; margin: 0px 10px 0px 10px}
+.margin0{margin: 0px;}
+.marginside{margin-left: 17%; margin-right: 17%}
+.f30{font-size: 30px}
+.allcaps{text-transform: uppercase;}
+.whitef{color: #ffffff;}
+
+/*Colors*/
+.top6m{background: #820433;}
+.top6f{background: #c9283d;}
+.talentf{background: #0f8bb1;}
+.talentm{background: #073846;}
+.winnerm{background: #e87b0d;}
+.winnerf{background: #ed9e00;}
+
+.title{font-size: 30px; color: #ffffff}
+.description{font-size: 15px; color: #ffffff}
+.page-title{width: 100%; height: 100px; padding-top: 6px;}
+
+/*Tabulation*/
+.tabulation-contestant{height: 350px; padding: 5% 0 0 3%;}
+.imageplaceholder{background: #bdc3c7; height: 200px; width: 150px;}
+.name{color: #ffffff; font-family: "Avenir Black", sans-serif; font-size:  30px;}
+.tabulation-form{margin-left: 1%; width: 180px; margin-top: -10px}
+label{font-size: 14px; color: #ffffff;}
+.score{font-size: 30px; width: 150px; height: 60px; font-family:"Avenir Book", sans-serif; text-align: center; border: none; margin: 0px; }
+.winner-score{font-size: 30px; width: 100px; height: 100px; font-family:"Avenir Book", sans-serif; text-align: right; border: none; margin: 0px;}
+.talent-score{font-size: 30px; width: 150px; height: 50px; font-family:"Avenir Book", sans-serif; text-align: center; border: none; margin: 0px; padding-left: 10%;}
+.top6-form-group {float: left; margin-left: 15px; margin-bottom: 15px}
+.winner-form-group{float: left; margin-left: 15px; margin-top: 20%}
+.talent-form-group{margin-top: 5%;}
+.talent-form{margin-left: 20%}
+.tabulation-score {border-left: #ffffff solid 1px; height: 215px; margin-left: 26px; width: 23%;}
+.score-summary {color: #ffffff; text-align: right;margin-top: 25px;}
+.tab-head{height: 40px; padding-top: 10px; text-align: center;}
+.tabulation-male {width: 50%; float: left;}
+.tabulation-male .tab-head {border-top-left-radius: 10px; float: right; width: 250px; color: #ffffff;}
+.tabulation-female {width: 50%; float: right; }
+.tabulation-female .tab-head {border-top-right-radius: 10px; float: left; width: 250px; color: #ffffff; }
+.tabulation {margin-top: 50px;}
+.row-clear {margin-top: 50px; clear: both;}
+.titlepage {font-size: 50px; font-family: "Avenir Black", sans-serif}
+
+.margintop {margin-top: 100px;}
+.marginbot {margin-bottom: 50px}
+.margintop-10{margin-top: 10px}
+.divider-form {border-right: 1px solid #ffffff; height: 50%; float: left; margin: 20% 0% 0 0%; }
+
+
+.sideno {border-radius: 100%; color: #ffffff; height: 40px; width: 40px; display: block; text-align: center; margin: auto; text-decoration: none; font-size: 25px; margin-top: 10px; padding-top: 3px;}
+
+.displayblock {display: block;}
+
+.center {
+    
+}
